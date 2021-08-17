@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    padding: 0 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    position: relative;
+
+    width: 100%;
+    max-width: 950px;
+    background: #fff;
+    box-shadow: 0 10px 20px grey;
+    margin: 1em auto;
+}
+
+.left {
+    background-color: rgb(2, 128, 128);
+    padding: 1em;
+    color: #fff;
+}
+
+.intro {
+    text-align: center;
+}
+
+.img-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text h3 {
+    margin: 0.3em 0;
+    font-size: 1.5rem;
+}
+
+.text p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 0.4em;
+}
+
+.contact {
+    font-size: 1.4rem;
+    margin: 1.5em 0;
+}
+
+.contact-detail {
+    margin-top: 0.4em;
+}
+
+.contact-detail i {
+    color: rgb(45, 252, 252);
+}
+
+.languages {
+    margin: 1.5em 0;
+    font-size: 1.4rem;
+}
+
+.skills{
+    margin: 1.5em 0;
+    font-size: 1.4rem;
+}
+
+ul li {
+    margin-top: 0.6em;
+    list-style: none;
+}
+
+.right {
+    font-size: 1.4rem;
+    padding: 1em;
+}
+
+.right h3 {
+    background-color: rgb(2, 128, 128);
+    color: #fff;
+    padding: 0.3em;
+}
+
+.right h4 {
+    color: rgb(2, 128, 128);
+}
+.right p {
+    text-align: justify;
+}
+
+h4 {
+    margin-top: 0.4em;
+}
+
+section {
+    margin-top: 0.6em;
+}
+
+footer {
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 1em;
+}
+
+@media (min-width: 900px) {
+    main {
+        display: flex;
+        margin: 4em auto;
+    }
+}
